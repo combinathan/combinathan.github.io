@@ -1,0 +1,13 @@
+.navbar{
+    width: 100px;
+}
+
+.navbar a{
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+}
