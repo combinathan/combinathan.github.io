@@ -1,37 +1,69 @@
 <!DOCTYPE html>
-<style>
-    .header {
-        font-family: helvetica;
-        font-size: 35px;
-    }
-    .navbar{
-        width: 100px;
-        position: absolute;
+<head>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <script src="jquery-3.4.0.min.js"></script>
+</head>
 
-    }
+<body>
+  <style>
+      .header {
+          font-family: helvetica;
+          font-size: 35px;
+          top: 35px;
+          left: 50px;
+          position: relative;
 
-    .navbar a{
-        color: black;
-        display: block;
-        padding: 10px;
-        text-decoration: none;
-        font-family: helvetica;
-        font-size: 12px;
-    }
+      }
 
-    .navbar a:hover {
-        background-color: orange;
-    }
+      .navbar{
+          width: 100px;
+          padding: 60px;
+          position: sti;
+      }
 
-    p {
-        font-family: helvetica;
-    }
-</style>
+      .navbar a{
+          color: black;
+          display: block;
+          padding: 12px;
+          text-decoration: none;
+          font-family: helvetica;
+          font-size: 14px;
+      }
 
-<h class="header">Nathan Vu</h>
-<div class="navbar">
-    <a href="#">Home</a>
-    <a href="#">About Me</a>
-    <a href="#">Experience</a>
-    <a href="#">Resume</a>
-</div>
+      .navbar a:hover {
+          background-color: orange;
+      }
+
+      #homePage {
+          font-family: helvetica;
+          padding: 10px;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+
+  </style>
+
+  <main>
+    <h class="header">Nathan Vu</h>
+    <div class="navbar">
+      <ul>
+        <li><a href="#homePage">Home</a></li>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#experiences">Experience</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+    </div>
+
+    <div id="homePage">
+      <p> Hello I'm Nathan a recent UCSD class of 2020 graduate with a B.A. in Economics. </p>
+    </div>
+    <div id="About Me">
+      <p> Hello I'm Nathan a recent UCSD class of 2020 graduate with a B.A. in Economics. </p>
+    </div>
+
+  </main>
+</body>
