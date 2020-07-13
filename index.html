@@ -1,69 +1,90 @@
 <!DOCTYPE html>
-<head>
-  <link rel="stylesheet" type="text/css" href="css.css">
-  <script src="jquery-3.4.0.min.js"></script>
-</head>
+<link rel="stylesheet" type="text/css" href="css.css">
+<script src="jquery-3.4.0.min.js"></script>
 
-<body>
-  <style>
-      .header {
-          font-family: helvetica;
-          font-size: 35px;
-          top: 35px;
-          left: 50px;
-          position: relative;
 
-      }
+<style>
+    .header {
+        font-family: helvetica;
+        font-size: 35px;
+        top: 35px;
+        left: 50px;
+        position: relative;
+    }
 
-      .navbar{
-          width: 100px;
-          padding: 60px;
-          position: sti;
-      }
-
-      .navbar a{
-          color: black;
-          display: block;
-          padding: 12px;
-          text-decoration: none;
-          font-family: helvetica;
-          font-size: 14px;
-      }
-
-      .navbar a:hover {
-          background-color: orange;
-      }
-
-      #homePage {
-          font-family: helvetica;
-          padding: 10px;
-      }
-
-      ul {
-        margin: 0;
-        padding: 0;
+    .navbar{
+        width: 100px;
+        padding: 60px;
+        position: fixed;
         list-style-type: none;
-      }
+        margin: auto;
+    }
 
-  </style>
+    .navbar a{
+        color: black;
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+        font-family: helvetica;
+        font-size: 14px;
+    }
 
-  <main>
-    <h class="header">Nathan Vu</h>
-    <div class="navbar">
-      <ul>
-        <li><a href="#homePage">Home</a></li>
-        <li><a href="#aboutMe">About Me</a></li>
-        <li><a href="#experiences">Experience</a></li>
-        <li><a href="#resume">Resume</a></li>
-      </ul>
-    </div>
+    .navbar a:hover {
+        background-color: orange;
+    }
 
-    <div id="homePage">
+    .wrapper {
+      display: flex;
+      flex-flow: row wrap;
+      text-align: justify;
+      position: relative;
+      flex: 1 100%;
+    }
+
+    .main {
+      font-family: helvetica, arial;
+      font-size: 15px;
+      flex: 1 100%;
+      order: 3;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+</style>
+
+<h class="header">Nathan Vu</h>
+
+
+<div class="wrapper">
+  <div class="main">
+    <article>
+      <h2 id="aboutMe">About Me</h2>
       <p> Hello I'm Nathan a recent UCSD class of 2020 graduate with a B.A. in Economics. </p>
-    </div>
-    <div id="About Me">
-      <p> Hello I'm Nathan a recent UCSD class of 2020 graduate with a B.A. in Economics. </p>
-    </div>
+    </article>
+    <article>
+      <h2 id="experience">Experience</h2>
+      <p>experience</p>
+    </article>
+    <article>
+      <h2 id="resume">Resume</h2>
+      <p>resume</p>
+    </article>
+    <article>
+      <h2 id="contact">Contact Me</h2>
+      <p>contact info</p>
+    </article>
+  </div>
 
-  </main>
-</body>
+  <div class="navbar">
+    <ul>
+      <li><a href="#aboutMe">About Me</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </div>
+</div>
