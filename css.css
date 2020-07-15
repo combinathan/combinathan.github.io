@@ -1,45 +1,47 @@
-.header {
-  font-family: helvetica;
-  font-size: 35px;
-  position: relative;
-  max-width: 800px;
-
-}
-
 .wrapper {
   display: flex;
   text-align: justify;
   position: relative;
-  min-height: 100%;
-  min-width: 100%;
+  max-width: 80%;
+  flex-flow: row;
 
 }
 
 .main {
   font-family: helvetica, arial;
-  top: 8em;
-  right: 8em;
   text-align: justify;
+  align-self:;
   font-size: 15px;
   position: relative;
-  max-width: 75%;
-  margin-left: auto;
-  justify-content: space-around;
+  min-width: 100%;
+  top: 6em;
+  right: 2em;
 
+}
+
+.navbarWrapper {
+  width: 1500px;
+  order: -2;
+  padding: 5em;
+  text-align: left;
+
+}
+
+.header {
+  font-family: helvetica;
+  font-size: 35px;
+  width: 600px;
 }
 
 .navbar{
   width: 100px;
-  padding: 5em;
-  position: relative;
   list-style-type: none;
-  order: -1;
 }
 
 .navbar a{
   color: black;
   display: block;
-  padding: 12px;
+  padding: 10px;
   text-decoration: none;
   font-family: helvetica;
   font-size: 14px;
