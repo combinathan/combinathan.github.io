@@ -2,37 +2,38 @@
   font-family: helvetica;
   font-size: 35px;
   position: relative;
-  max-width: 70%;
+  max-width: 800px;
+
 }
 
 .wrapper {
   display: flex;
   text-align: justify;
-  justify-content: space-between;
   position: relative;
   min-height: 100%;
   min-width: 100%;
-  margin: auto;
 
 }
 
 .main {
   font-family: helvetica, arial;
-  padding: 1em;
+  top: 8em;
+  right: 8em;
   text-align: justify;
   font-size: 15px;
-  flex: 1 100%;
   position: relative;
   max-width: 75%;
   margin-left: auto;
+  justify-content: space-around;
 
 }
 
 .navbar{
   width: 100px;
-  padding: 60px;
+  padding: 5em;
   position: relative;
   list-style-type: none;
+  order: -1;
 }
 
 .navbar a{
