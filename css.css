@@ -10,27 +10,27 @@
 .main {
   font-family: helvetica, arial;
   text-align: justify;
-  align-self:;
   font-size: 15px;
   position: relative;
   min-width: 100%;
   top: 6em;
-  right: 2em;
+  right: 3em;
 
 }
 
 .navbarWrapper {
-  width: 1500px;
+  width: 200px;
   order: -2;
-  padding: 5em;
+  padding: 6em;
   text-align: left;
+  position: relative;
 
 }
 
 .header {
   font-family: helvetica;
-  font-size: 35px;
-  width: 600px;
+  font-size: 30px;
+  width: 1000px;
 }
 
 .navbar{
@@ -39,7 +39,7 @@
 }
 
 .navbar a{
-  color: black;
+  color: #0277bd;
   display: block;
   padding: 10px;
   text-decoration: none;
@@ -48,7 +48,12 @@
 }
 
 .navbar a:hover {
-  background-color: orange;
+  color: #0277bd;
+  text-decoration: underline;
+}
+
+p {
+  line-height: 20px;
 }
 
 ul {
